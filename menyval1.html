@@ -1,0 +1,162 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+    
+<link rel="icon" type="image/png" href="bilder/cookie.png">
+    <title>Hemsidans titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+    <nav class="nav navbar-inverse navbar-static-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Matbloggen</a>
+            <ul class="nav navbar-nav">
+                <li><a href="#bild2">Chocolate cake</a></li>
+                <li><a href="#bild3">Cookies</a></li>
+                <li><a href="#bild4">American pancakes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="parallax" id="bild1">
+        <div class="caption">
+         <span class="border">Matbloggen</span>
+        </div> 
+    </div>
+
+    <div class="scroll-box">
+        <p id="parall">Välkommen till min matblogg!</p>
+    </div>
+
+<!--CHOKLADKAKAN -->
+<div class="parallax" id="bild2">
+      <div class="caption" id="svart2">
+         <span class="border">Chocolate cake</span>
+        </div> 
+    <div class="whitebox">
+  <div class="col-sm-6">    
+    <b> Ingredienser</b>
+    <li>150 gram smör</li>
+    <li>2 st ägg</li>
+    <li>2,5 dl strösocker</li>
+    <li>1 tsk vaniljsocker</li>
+    <li>1 msk kaffe, kallt</li>
+    <li>1,5 dl vetemjöl</li>
+    <li>0,5 dl kakao</li>
+    <li>1 tsk bakpulver</li>
+    <li>Chokladtäcke</li>
+    <li>100 gram bakchoklad,Marabou Mörk</li>
+    <li>1 dl vispgrädde</li>
+    <li>20 gram smör</li>
+  </div> 
+  <div class="col-sm-6">
+    <b>Tillagning</b>
+     Sätt ugnen på 175 grader. Smält smöret och låt det svalna.
+     Vispa ihop ägg, socker och vaniljsocker. Tillsätt kaffet.
+     Sikta i mjöl, kakao och bakpulver. Rör i det smälta smöret.
+     Häll smeten i en smord form med löstagbar kant, ca 24 cm i diameter.
+     Grädda mitt i ugnen ca 20 minuter. Låt kakan svalna i formen.
+     Chokladtäcke: Blanda smör, grädde och Marabou Mörk Bakchoklad i en kastrull och smält på låg värme.
+     Drag kastrullen av värmen och låt crèmen svalna i rumstemperatur. Den ska vara tjock och krämig i konsistensen när den är färdig.
+  </div>
+</div>
+</div>
+
+    <div class="scroll-box">
+        <p id="parall">Recept 2</p>
+    </div>
+
+    <!-- Cookie -->
+<div class="parallax" id="bild3">
+      <div class="caption" id="svart3">
+         <span class="border">Cookie</span>
+        </div> 
+    <div class="whitebox" id="vit3">
+  <div class="col-sm-6">  
+    <p><b> Ingredienser </b> </p> 
+<ul>
+<li>200 g Arla® Svenskt Smör</li>
+<li>Normalsaltat 82%</li>
+<li>1 dl strösocker</li>
+<li>1 dl farinsocker</li>
+<li>1 tsk vaniljsocker</li>
+<li>2 ägg</li>
+<li>4 dl vetemjöl</li>
+<li>1 tsk bikarbonat</li>
+<li>1 tsk salt</li>
+<li>100 g hackad mörk choklad</li>
+</ul> </p></div>
+
+<div class="col-sm-6"> 
+<p> <b>Gör så här: </b>
+Sätt ugnen på 225°. Smält smöret och låt svalna. Rör ihop allt socker och ägg i en bunke. Blanda mjöl med bikarbonat, salt och hackad choklad. Rör ner i smeten tillsammans med det smälta smöret. Rör till en jämn smet. Forma 20 bollar och lägg ut glest på plåtar med bakplåtspapper. Grädda i mitten av ugnen 5-7 min. Dra av direkt från plåten.
+ </p></div></div>
+
+</div>
+
+    <div class="scroll-box">
+        <p id="parall">Recept 3</p>
+    </div>
+
+<!-- pannkakor -->
+
+<div class="parallax" id="bild4">
+      <div class="caption" id="svart4">
+         <span class="border">American pancakes</span>
+        </div> 
+    <div class="whitebox" id="vit4">
+  <div class="col-sm-6">  
+     <p> <b> Amerikanska pannkakor:</b> </p>
+            <p> <b>Ingredienser
+                PORTIONER: 15 st </b> </p> 
+                <ul>
+                    <li>2 1/2 dl vetemjöl</li>
+                    <li>2 tsk bakpulver</li>
+                    <li>2 msk socker</li>
+                    <li>1 krm salt</li>
+                    <li>2 1/2 dl mjölk (3%) </li>
+                    <li>2 msk smält smör</li>
+                    <li>1 ägg</li>
+                    <li>smör till stekning</li>
+                    <li>florsocker att pudra över</li>
+                </ul>
+</div>
+<div class="col-sm-6"> 
+<p> <b>Gör så här:</b>
+                    Blanda de torra ingredienserna i en skål. Vispa först ner mjölken, sedan smöret och sist ägget. Vispa till en slät smet.
+                    Pensla en plättlagg eller en stekpanna med lite smör och klicka ut ca 1 msk smet per pannkaka.
+                    Grädda ca 1 1/2 minut, tills det börjar bli lite bubblor på ytan. Vänd och grädda ytterligare ca 1 1/2 minut. Pudra de nygräddade pannkakorna med florsocker och servera med tillbehören,banan, hallon, jordgubbar m.m </p> </div></div>
+
+</div>
+
+    
+
+
+
+
+
+
+
+    </body>
+    </html>
